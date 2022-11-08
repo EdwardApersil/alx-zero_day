@@ -2,4 +2,131 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: aliceblue;
+    margin: 0 auto;
+    width: 90vw;
+    max-width: 1225px;
+}
+
+/* Navigation bar */
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.menus a{
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+    margin: 10px;
+    margin-left: 1rem;
+}
+
+.menus a:hover{
+    color: rgb(244, 117, 75);
+}
+
+
+.logo img{
+    width: 40px;
+    margin-top: 10px;
+    
+}
+
+/* Hero section */
+.hero-right{
+    color: rgb(255, 255, 255);
+    margin-left: 1rem;
+    background-color: rgb(3, 3, 40);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.hero-right h2{
+    color: rgb(244, 117, 75);
+    font-size: 30px;
+    margin-left: 1rem;
+}
+
+.hero-right h3:hover{
+    color: rgb(244, 117, 75);
+    cursor: pointer;
+}
+
+.card{
+    padding: 1rem;
+}
+
+.hero-left img{
+    width: 800px;
+    border-radius: 4px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-left-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.line{
+    color: rgba(255, 255, 255, 0.483);
+}
+
+.sub-content p{
+    width: 400px;
+}
+
+.sub-content button{
+    padding: 15px;
+    background-color: rgb(3, 3, 40);
+    border-radius: 4px;
+    color: white;
+    border: none;
+    width: 150px;
+}
+
+.sub-content button:hover{
+    background-color: rgb(244, 117, 75);
+    cursor: pointer;
+}
+
+
+.hero-left h1{
+    width: 300px;
+    font-size: 50px;
+    margin-top: -4px;
+}
+
+
+.last-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.card1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.card1 img{
+    height: 200px;
+    width: 200px;
+    border-radius: 4px;
+}
+
+.pc-content{
+    margin-left: 1rem;
+}
+
+.pc-content h2{
+    color: grey;
+    font-size: 35px;
 }
